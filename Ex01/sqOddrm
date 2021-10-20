@@ -1,0 +1,2 @@
+seq 20 | xargs -I{} touch {}
+rm *[02468]
